@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "106192175128",
+    "firebase_url": "https://pemantauan-jadwal-imunisasi.firebaseio.com",
+    "project_id": "pemantauan-jadwal-imunisasi",
+    "storage_bucket": "pemantauan-jadwal-imunisasi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106192175128:android:026fabc5ca65013b",
+        "android_client_info": {
+          "package_name": "com.andevindo.pemantauanjadwalimunisasibalita"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106192175128-2ljbsmupeuua1n15pq27a4rkleb15qma.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.andevindo.pemantauanjadwalimunisasibalita",
+            "certificate_hash": "938C75D36ED5868B30B6A431D616EAF6369E5A48"
+          }
+        },
+        {
+          "client_id": "106192175128-fi0ueo26ve4npq4cj2nmqedt17tuvhlh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-AGdyBX9fVUKGnvHzS6UKWsq-NliuWhE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106192175128-fi0ueo26ve4npq4cj2nmqedt17tuvhlh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id":1,
+    "name":"Hepatitis B",
+    "description":"Vaksin hepatitis B paling baik diberikan dalam waktu 12 jam setelah lahir dan didahului pemberian suntikan vitamin K1. Bayi lahir dari ibu HBsAg positif, diberikan vaksin hepatitis B dan imunoglobulin hepatitis B (HBIg) pada ekstremitas yang berbeda.  Vaksinasi hepatitis B selanjutnya dapat menggunakan vaksin hepatitis B monovalen atau vaksin kombinasi."
+  },
+  {
+    "id":2,
+    "name":"Polio",
+    "description":"Vaksin polio diberikan pada saat lahir atau pada saat bayi dipulangkan harus diberikan vaksin polio oral (OPV-0). Selanjutnya, untuk polio-1, polio-2, polio-3 dan polio booster dapat diberikan vaksin OPV atau IPV, namun sebaiknya paling sedikit mendapat  satu dosis vaksin IPV."
+  },
+  {
+    "id":3,
+    "name":"BCG",
+    "description":"Pemberian vaksin BCG dianjurkan sebelum 3 bulan, optimal umur 2 bulan. Apabila diberikan sesudah umur 3 bulan, perlu dilakukan uji tuberkulin."
+  },
+  {
+    "id":4,
+    "name":"DTP",
+    "description":"Vaksin DTP pertama diberikan paling cepat pada umur 6 minggu. Dapat diberikan vaksin DTwP atau DTaP atau kombinasi dengan vaksin lain. Untuk anak umur lebih dari 7 tahun diberikan vaksin Td, dibooster setiap 10 tahun."
+  },
+  {
+    "id":5,
+    "name":"HiB",
+    "description":"IMUNISASI HiB dapat berupa vaksin PRP-T (konjugasi) diberikan pada usia 2, 4, dan 6 bulan, dan diulang pada usia 18 bulan. Vaksin HiB juga dapat diberikan dalam bentuk vaksin kombinasi. Apabila anak datang pada usia 1-5 tahun, HiB hanya diberikan 1 kali . Anak di atas usia 5 tahun tidak perlu diberikan karena penyakit ini hanya menyerang anak dibawah usia 5 tahun. Saat ini, imunisasi HiB telah telah masuk program pemerintah, yaitu vaksin Pentabio produksi Bio Farma, vaksin HiB diberikan bersama DPT, Hepatitis B."
+  },
+  {
+    "id":6,
+    "name":"PCV",
+    "description":"Vaksin PCV diberikan 2 kali dengan interval 2 bulan; pada umur lebih dari  1 tahun diberikan 1 kali, namun keduanya perlu booster 1 kali pada umur lebih dari 12 bulan atau minimal 2 bulan setelah dosis terakhir. Pada anak umur di atas 2 tahun PCV diberikan cukup satu kali."
+  },
+  {
+    "id":7,
+    "name":"Rotavirus",
+    "description":"Vaksin rotavirus monovalen diberikan 2 kali, vaksin rotavirus pentavalen diberikan 3 kali. Vaksin rotavirus monovalen dosis I diberikan umur 6-14 minggu, dosis ke-2 diberikan dengan interval minimal 4 minggu. Sebaiknya vaksin rotavirus monovalen selesai diberikan sebelum umur 16 minggu dan tidak melampaui umur 24 minggu. Vaksin rotavirus pentavalen : dosis ke-1 diberikan umur 6-14 minggu, interval dosis ke-2 dan ke-3, 4-10 minggu; dosis ke-3 diberikan pada umur kurang dari 32 minggu (interval minimal 4 minggu)."
+  },
+  {
+    "id":8,
+    "name":"Influenza",
+    "description":"Vaksin influenza diberikan dengan dosis tergantung usia anak. Pada usia 6-35 bulan cukup 0,25 mL. Anak usia >3 tahun, diberikan 0,5 mL. Pada anak berusia <8 tahun, untuk pemberian pertama kali diperlukan 2 dosis dengan interval minimal 4-6 minggu, sedangkan bila anak berusia >8 tahun, maka dosis pertama cukup 1 dosisi saja."
+  },
+  {
+    "id":9,
+    "name":"Campak",
+    "description":"Vaksin campak kedua tidak perlu diberikan pada umur 24 bulan, apabila MMR sudah diberikan pada 15 bulan."
+  },
+  {
+    "id":10,
+    "name":"MMR",
+    "description":"Vaksin MMR diberikan pada usia 15-18 bulan dengan minimal interval 6 bulan antara imunisasi campak dengan MMR.  MMR diberikan minimal 1 bulan sebelum atau sesudah penyuntikan imunisasi lain. Apabila seorang anak telah mendapat imunisasi MMR pada usia 12-18 bulan dan diulang pada usia 6 tahun, imunisasi campak (monovalen) tambahan pada usia 6 tahun tidak perlu lagi diberikan. Bila imunisasi ulangan (booster) belum diberikan setelah berusia 6 tahun, berikan vaksin campak/MMR kapan saja saat bertemu. Pada prinsipnya, berikan imunisai campak 2 kali atau MMR 2 kali."
+  },
+  {
+    "id":11,
+    "name":"Tifoid",
+    "description":"Imunisasi tifoid diberikan pada usia lebih dari 2 tahun, dengan ulangan setiap 3 tahun. Vaksin tifoid merupakan vaksin polisakarida sehingga di atas usia 2 tahun."
+  },
+  {
+    "id":12,
+    "name":"Hepatitis A",
+    "description":"Imunisasi hepatitis A dan tifoid diberikan pada usia lebih dari 2 tahun. Imunisasi hepatitis A diberikan sebanyak 2 dosis dengan interval 6-12 bulan."
+  },
+  {
+    "id":13,
+    "name":"Varisela",
+    "description":"Vaksin varisela dapat diberikan setelah umur 12 bulan, terbaik pada umur sebelum masuk sekolah dasar. Apabila diberikan pada umur lebih dari 12 tahun, perlu 2 dosis dengan interval minimal 4 minggu."
+  },
+  {
+    "id":14,
+    "name":"Human Papiloma Virus (HPV)",
+    "description":"Vaksin HPV dapat diberikan mulai umur 10 tahun. Vaksin HPV bivalen diberikan tiga kali dengan interval 0, 1, 6 bulan; vaksin HPV tetravalen dengan interval 0,2,6 bulan."
+  }
+]

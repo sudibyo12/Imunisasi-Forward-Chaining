@@ -1,0 +1,282 @@
+[
+  {
+    "id":1,
+    "vaccineId":1,
+    "vaccineName":"Hepatitis B Tahap 1",
+    "time":12,
+    "timeFormat":"jam",
+    "isRepeated":false
+  },
+  {
+    "id":2,
+    "vaccineId":1,
+    "vaccineName":"Hepatitis B Tahap 2",
+    "time":1,
+    "timeFormat":"bulan",
+    "isRepeated":false
+  },
+  {
+    "id":3,
+    "vaccineId":1,
+    "vaccineName":"Hepatitis B Tahap 3",
+    "time":6,
+    "timeFormat":"bulan",
+    "isRepeated":false
+  },
+  {
+    "id":4,
+    "vaccineId":2,
+    "vaccineName":"Polio Tahap 1",
+    "time":12,
+    "timeFormat":"jam",
+    "isRepeated":false
+  },
+  {
+    "id":5,
+    "vaccineId":2,
+    "vaccineName":"Polio Tahap 2",
+    "time":2,
+    "timeFormat":"bulan",
+    "isRepeated":false
+  },
+  {
+    "id":6,
+    "vaccineId":2,
+    "vaccineName":"Polio Tahap 3",
+    "time":4,
+    "timeFormat":"bulan",
+    "isRepeated":false
+  },
+  {
+    "id":7,
+    "vaccineId":2,
+    "vaccineName":"Polio Tahap 4",
+    "time":6,
+    "timeFormat":"bulan",
+    "isRepeated":false
+  },
+  {
+    "id":8,
+    "vaccineId":2,
+    "vaccineName":"Polio Tahap 5",
+    "time":18,
+    "timeFormat":"bulan",
+    "isRepeated":false
+  },
+  {
+    "id":9,
+    "vaccineId":2,
+    "vaccineName":"Polio Tahap 6",
+    "time":5,
+    "timeFormat":"tahun",
+    "isRepeated":false
+  },
+  {
+    "id":10,
+    "vaccineId":3,
+    "vaccineName":"BCG",
+    "time":2,
+    "timeFormat":"bulan",
+    "isRepeated":false
+  },
+  {
+    "id":11,
+    "vaccineId":4,
+    "vaccineName":"DTP Tahap 1",
+    "time":2,
+    "timeFormat":"bulan",
+    "isRepeated":false
+  },
+  {
+    "id":12,
+    "vaccineId":4,
+    "vaccineName":"DTP Tahap 2",
+    "time":4,
+    "timeFormat":"bulan",
+    "isRepeated":false
+  },
+  {
+    "id":13,
+    "vaccineId":4,
+    "vaccineName":"DTP Tahap 3",
+    "time":6,
+    "timeFormat":"bulan",
+    "isRepeated":false
+  },
+  {
+    "id":14,
+    "vaccineId":4,
+    "vaccineName":"DTP Tahap 4",
+    "time":18,
+    "timeFormat":"bulan",
+    "isRepeated":false
+  },
+  {
+    "id":15,
+    "vaccineId":4,
+    "vaccineName":"DTP Tahap 5",
+    "time":5,
+    "timeFormat":"tahun",
+    "isRepeated":false
+  },
+  {
+    "id":16,
+    "vaccineId":5,
+    "vaccineName":"Hib Tahap 1",
+    "time":2,
+    "timeFormat":"bulan",
+    "isRepeated":false
+  },
+  {
+    "id":17,
+    "vaccineId":5,
+    "vaccineName":"Hib Tahap 2",
+    "time":4,
+    "timeFormat":"bulan",
+    "isRepeated":false
+  },
+  {
+    "id":18,
+    "vaccineId":5,
+    "vaccineName":"Hib Tahap 3",
+    "time":6,
+    "timeFormat":"bulan",
+    "isRepeated":false
+  },
+  {
+    "id":19,
+    "vaccineId":5,
+    "vaccineName":"Hib Tahap 4",
+    "time":15,
+    "timeFormat":"bulan",
+    "isRepeated":false
+  },
+  {
+    "id":20,
+    "vaccineId":6,
+    "vaccineName":"PCV Tahap 1",
+    "time":2,
+    "timeFormat":"bulan",
+    "isRepeated":false
+  },
+  {
+    "id":21,
+    "vaccineId":6,
+    "vaccineName":"PCV Tahap 2",
+    "time":4,
+    "timeFormat":"bulan",
+    "isRepeated":false
+  },
+  {
+    "id":22,
+    "vaccineId":6,
+    "vaccineName":"PCV Tahap 3",
+    "time":6,
+    "timeFormat":"bulan",
+    "isRepeated":false
+  },
+  {
+    "id":23,
+    "vaccineId":6,
+    "vaccineName":"PCV Tahap 4",
+    "time":12,
+    "timeFormat":"bulan",
+    "isRepeated":false
+  },
+  {
+    "id":24,
+    "vaccineId":7,
+    "vaccineName":"Rotavirus Tahap 1",
+    "time":2,
+    "timeFormat":"bulan",
+    "isRepeated":false
+  },
+  {
+    "id":25,
+    "vaccineId":7,
+    "vaccineName":"Rotavirus Tahap 2",
+    "time":4,
+    "timeFormat":"bulan",
+    "isRepeated":false
+  },
+  {
+    "id":26,
+    "vaccineId":7,
+    "vaccineName":"Rotavirus Tahap 3",
+    "time":6,
+    "timeFormat":"bulan",
+    "isRepeated":false
+  },
+  {
+    "id":27,
+    "vaccineId":8,
+    "vaccineName":"Influenza",
+    "time":1,
+    "timeFormat":"tahun",
+    "isRepeated":true
+  },
+  {
+    "id":28,
+    "vaccineId":9,
+    "vaccineName":"Campak Tahap 1",
+    "time":9,
+    "timeFormat":"bulan",
+    "isRepeated":false
+  },
+  {
+    "id":29,
+    "vaccineId":9,
+    "vaccineName":"Campak Tahap 2",
+    "time":24,
+    "timeFormat":"bulan",
+    "isRepeated":false
+  },
+  {
+    "id":30,
+    "vaccineId":10,
+    "vaccineName":"MMR",
+    "time":15,
+    "timeFormat":"bulan",
+    "isRepeated":false
+  },
+  {
+    "id":31,
+    "vaccineId":11,
+    "vaccineName":"Tifoid",
+    "time":3,
+    "timeFormat":"tahun",
+    "isRepeated":true
+  },
+  {
+    "id":32,
+    "vaccineId":12,
+    "vaccineName":"Hepatitis A Tahap 1",
+    "time":2,
+    "timeFormat":"tahun",
+    "isRepeated":false
+  },
+  {
+    "id":33,
+    "vaccineId":12,
+    "vaccineName":"Hepatitis A Tahap 2",
+    "time":3,
+    "timeFormat":"tahun",
+    "isRepeated":false
+  },
+  {
+    "id":34,
+    "vaccineId":13,
+    "vaccineName":"Varisela",
+    "time":1,
+    "timeFormat":"tahun",
+    "isRepeated":false
+  },
+  {
+    "id":35,
+    "vaccineId":14,
+    "vaccineName":"HPV",
+    "time":10,
+    "timeFormat":"tahun",
+    "isRepeated":false
+  }
+]

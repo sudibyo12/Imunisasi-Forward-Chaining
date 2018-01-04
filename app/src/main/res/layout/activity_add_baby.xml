@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_add_baby"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.andevindo.pemantauanjadwalimunisasibalita.View.Activity.AddBabyActivity">
+
+    <com.flaviofaria.kenburnsview.KenBurnsView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:alpha="0.8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_weight="1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_corner"
+            android:adjustViewBounds="true"/>
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"></LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+        <RelativeLayout
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_add_a_photo_white_80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/photo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@android:color/white"
+                android:src="@drawable/transparent_background"
+                />
+
+        </RelativeLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/baby_name_layout"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:theme="@style/AddBabyTheme"
+            app:hintTextAppearance="@style/TextAppearance.AppCompat.Body1">
+            <EditText
+                android:id="@+id/baby_name"
+                android:hint="Nama Balita"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:theme="@style/AddBabyTheme"
+                android:imeOptions="actionNext"/>
+        </android.support.design.widget.TextInputLayout>
+        <LinearLayout
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/date_layout"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:theme="@style/AddBabyTheme"
+                app:hintTextAppearance="@style/TextAppearance.AppCompat.Body1">
+                <EditText
+                    android:id="@+id/date"
+                    android:hint="Tanggal Lahir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:theme="@style/AddBabyTheme"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/time_layout"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:theme="@style/AddBabyTheme"
+                app:hintTextAppearance="@style/TextAppearance.AppCompat.Body1">
+                <EditText
+                    android:id="@+id/time"
+                    android:hint="Pukul"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:theme="@style/AddBabyTheme"/>
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+        <TextView
+            android:alpha="0.54"
+            android:text="Jenis Kelamin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:theme="@style/AddBabyTheme"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp"
+            app:theme="@style/AddBabyTheme"
+            android:gravity="center_horizontal">
+            <RadioButton
+                android:id="@+id/boy"
+                android:checked="true"
+                android:text="Laki-Laki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:id="@+id/girl"
+                android:text="Perempuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <Button
+            android:textColor="@color/colorPrimary"
+            android:text="Tambahkan"
+            android:id="@+id/add_baby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_play_arrow_primary_24dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

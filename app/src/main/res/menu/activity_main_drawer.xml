@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_monitoring"
+            android:icon="@drawable/ic_elevation_rise"
+            android:title="Pemantauan Imunisasi"
+            />
+        <item
+            android:id="@+id/nav_arrange_schedule"
+            android:icon="@drawable/ic_arrange_schedule"
+            android:title="Atur Jadwal"
+            />
+        <item
+            android:id="@+id/nav_vaccine"
+            android:icon="@drawable/ic_needle"
+            android:title="Info Vaksin"
+            />
+        <item
+            android:id="@+id/nav_baby_info"
+            android:icon="@drawable/ic_baby_face"
+            android:title="Info Balita"
+            />
+        <item
+            android:id="@+id/nav_choose_baby"
+            android:icon="@drawable/ic_baby_list"
+            android:title="Pilih/Tambah Balita"
+            />
+    </group>
+
+</menu>
